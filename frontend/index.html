@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CarWorth: used car price estimator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#/home" aria-label="CarWorth home">
+        <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#0f766e"/>
+          <path d="M6 19l2.2-5.6A2 2 0 0 1 10 12h12a2 2 0 0 1 1.8 1.4L26 19v4h-3v-1.5H9V23H6z" fill="#fff"/>
+          <circle cx="10.5" cy="19" r="1.5" fill="#0f766e"/><circle cx="21.5" cy="19" r="1.5" fill="#0f766e"/>
+        </svg>
+        <span>CarWorth</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/home" data-route="home">Home</a>
+        <a href="#/predict" data-route="predict">Predict</a>
+        <a href="#/history" data-route="history">History <span class="badge" id="navCount" hidden>0</span></a>
+        <a href="#/analytics" data-route="analytics">Analytics</a>
+      </nav>
+      <p class="side-note">Prices come from Quikr used-car listings and are estimates, not offers.</p>
+    </aside>
+
+    <main class="main">
+      <!-- HOME -->
+      <section id="view-home" class="view">
+        <div class="hero">
+          <div class="hero-copy">
+            <h1>What is your used car worth?</h1>
+            <p class="lead">Enter the brand, model, year, kilometres and fuel type. CarWorth compares them with thousands of real listings and gives you a price range to start from.</p>
+            <a class="btn primary" href="#/predict">Estimate a price</a>
+          </div>
+          <div class="tag-wrap" aria-live="polite">
+            <div class="price-tag">
+              <div class="tag-hole"></div>
+              <p class="tag-title" id="tagTitle">Your next estimate</p>
+              <p class="tag-price" id="tagPrice">₹ ----</p>
+              <p class="tag-range" id="tagRange">Make a prediction to fill this tag.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><strong id="sRows">-</strong><span>cars in the dataset</span></div>
+          <div class="stat"><strong id="sBrands">-</strong><span>brands covered</span></div>
+          <div class="stat"><strong id="sR2">-</strong><span>model accuracy (R²)</span></div>
+          <div class="stat"><strong id="sMae">-</strong><span>typical error</span></div>
+        </div>
+
+        <h2 class="section-title">How it works</h2>
+        <ol class="steps">
+          <li><b>Describe the car.</b> Pick the brand and model, then add year, kilometres and fuel.</li>
+          <li><b>Get an estimate.</b> The model returns one price and a range most cars like yours fall inside.</li>
+          <li><b>Come back to it.</b> Every estimate is saved in History, and Analytics shows how the market looks.</li>
+        </ol>
+      </section>
+
+      <!-- PREDICT -->
+      <section id="view-predict" class="view" hidden>
+        <h1>Predict a price</h1>
+        <p class="lead small">Pick a brand first. The model list narrows to cars in that brand.</p>
+        <div class="split">
+          <form id="predictForm" class="panel form" novalidate>
+            <label>Brand
+              <select id="fCompany" required></select>
+            </label>
+            <label>Model
+              <select id="fName" required></select>
+            </label>
+            <div class="row">
+              <label>Year
+                <input id="fYear" type="number" required>
+              </label>
+              <label>Kilometres driven
+                <input id="fKms" type="number" min="0" max="500000" step="500" placeholder="e.g. 45000" required>
+              </label>
+            </div>
+            <label>Fuel type
+              <select id="fFuel" required></select>
+            </label>
+            <p class="form-error" id="formError" role="alert" hidden></p>
+            <button class="btn primary" type="submit" id="predictBtn">Estimate price</button>
+          </form>
+
+          <div class="panel result" id="resultPanel" aria-live="polite">
+            <div id="resultEmpty" class="empty">
+              <p><b>No estimate yet.</b></p>
+              <p>Fill in the form and choose Estimate price. The result and its range appear here.</p>
+            </div>
+            <div id="resultBody" hidden>
+              <p class="result-car" id="rCar"></p>
+              <p class="result-price" id="rPrice"></p>
+              <div class="range">
+                <div class="range-track"><div class="range-fill"></div><div class="range-dot"></div></div>
+                <div class="range-labels"><span id="rLow"></span><span id="rHigh"></span></div>
+              </div>
+              <p class="muted" id="rNote"></p>
+              <a class="btn ghost" href="#/history">See all estimates</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HISTORY -->
+      <section id="view-history" class="view" hidden>
+        <div class="head-row">
+          <div>
+            <h1>Prediction history</h1>
+            <p class="lead small" id="histSub">Every estimate you make is saved here.</p>
+          </div>
+          <div class="actions">
+            <button class="btn ghost" id="exportBtn">Download CSV</button>
+            <button class="btn danger" id="clearBtn">Clear all</button>
+          </div>
+        </div>
+        <input id="histSearch" class="search" type="search" placeholder="Search by brand, model or fuel">
+        <div class="panel table-wrap">
+          <table>
+            <thead>
+              <tr><th>Date</th><th>Car</th><th>Year</th><th class="num">Kms</th><th>Fuel</th><th class="num">Estimate</th><th class="num">Range</th><th></th></tr>
+            </thead>
+            <tbody id="histBody"></tbody>
+          </table>
+          <div id="histEmpty" class="empty" hidden>
+            <p><b>No predictions saved.</b></p>
+            <p><a href="#/predict">Make your first estimate</a> and it will show up here.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ANALYTICS -->
+      <section id="view-analytics" class="view" hidden>
+        <h1>Analytics</h1>
+        <p class="lead small">What the listings say about the market, and how well the model does.</p>
+        <p class="notice" id="chartWarn" hidden>Charts could not load. Check your internet connection, since the chart library is loaded from a CDN.</p>
+
+        <div class="stats">
+          <div class="stat"><strong id="aCount">0</strong><span>estimates you made</span></div>
+          <div class="stat"><strong id="aAvg">-</strong><span>average estimate</span></div>
+          <div class="stat"><strong id="aBrand">-</strong><span>brand you check most</span></div>
+          <div class="stat"><strong id="aModel">-</strong><span>best model</span></div>
+        </div>
+
+        <div class="grid">
+          <div class="panel chart"><h3>Average price by brand</h3><p class="muted">Ten brands with the most listings</p><div class="canvas-box"><canvas id="cBrand"></canvas></div></div>
+          <div class="panel chart"><h3>Average price by year</h3><p class="muted">Newer cars hold their value</p><div class="canvas-box"><canvas id="cYear"></canvas></div></div>
+          <div class="panel chart"><h3>Listings by fuel type</h3><p class="muted" id="fuelNote"></p><div class="canvas-box"><canvas id="cFuel"></canvas></div></div>
+          <div class="panel chart"><h3>Kilometres against price</h3><p class="muted">Each dot is one listing</p><div class="canvas-box"><canvas id="cKms"></canvas></div></div>
+          <div class="panel chart wide"><h3>Model check: actual against predicted</h3><p class="muted" id="modelNote"></p><div class="canvas-box tall"><canvas id="cModel"></canvas></div></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

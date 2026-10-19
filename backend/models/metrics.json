@@ -1,0 +1,2856 @@
+{
+  "best_model": "Extra Trees",
+  "rows": 706,
+  "r2": 0.583,
+  "mae": 105403,
+  "median_ae": 49523,
+  "resid_q10": -0.46699199697884275,
+  "resid_q90": 0.4734388004651624,
+  "validation": "5-fold grouped cross-validation",
+  "comparison": [
+    {
+      "model": "Extra Trees",
+      "cv_r2": 0.583,
+      "cv_mae": 105403,
+      "cv_median_ae": 49523
+    },
+    {
+      "model": "Random Forest",
+      "cv_r2": 0.498,
+      "cv_mae": 120835,
+      "cv_median_ae": 59295
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_r2": 0.494,
+      "cv_mae": 133532,
+      "cv_median_ae": 75028
+    }
+  ],
+  "test_points": [
+    {
+      "actual": 80000,
+      "predicted": 127326
+    },
+    {
+      "actual": 425000,
+      "predicted": 274485
+    },
+    {
+      "actual": 325000,
+      "predicted": 343627
+    },
+    {
+      "actual": 575000,
+      "predicted": 563465
+    },
+    {
+      "actual": 175000,
+      "predicted": 283655
+    },
+    {
+      "actual": 190000,
+      "predicted": 184970
+    },
+    {
+      "actual": 830000,
+      "predicted": 630276
+    },
+    {
+      "actual": 250000,
+      "predicted": 234314
+    },
+    {
+      "actual": 182000,
+      "predicted": 186524
+    },
+    {
+      "actual": 315000,
+      "predicted": 353238
+    },
+    {
+      "actual": 415000,
+      "predicted": 352854
+    },
+    {
+      "actual": 320000,
+      "predicted": 587885
+    },
+    {
+      "actual": 1000000,
+      "predicted": 552129
+    },
+    {
+      "actual": 500000,
+      "predicted": 1653698
+    },
+    {
+      "actual": 350000,
+      "predicted": 328032
+    },
+    {
+      "actual": 160000,
+      "predicted": 207985
+    },
+    {
+      "actual": 310000,
+      "predicted": 350556
+    },
+    {
+      "actual": 75000,
+      "predicted": 242258
+    },
+    {
+      "actual": 100000,
+      "predicted": 210749
+    },
+    {
+      "actual": 190000,
+      "predicted": 235061
+    },
+    {
+      "actual": 290000,
+      "predicted": 711084
+    },
+    {
+      "actual": 95000,
+      "predicted": 108845
+    },
+    {
+      "actual": 180000,
+      "predicted": 582411
+    },
+    {
+      "actual": 385000,
+      "predicted": 367791
+    },
+    {
+      "actual": 250000,
+      "predicted": 399334
+    },
+    {
+      "actual": 180000,
+      "predicted": 251040
+    },
+    {
+      "actual": 105000,
+      "predicted": 104867
+    },
+    {
+      "actual": 650000,
+      "predicted": 460210
+    },
+    {
+      "actual": 689999,
+      "predicted": 683112
+    },
+    {
+      "actual": 448000,
+      "predicted": 258734
+    },
+    {
+      "actual": 549000,
+      "predicted": 678218
+    },
+    {
+      "actual": 501000,
+      "predicted": 474408
+    },
+    {
+      "actual": 489999,
+      "predicted": 465812
+    },
+    {
+      "actual": 280000,
+      "predicted": 264569
+    },
+    {
+      "actual": 349999,
+      "predicted": 399466
+    },
+    {
+      "actual": 284999,
+      "predicted": 259885
+    },
+    {
+      "actual": 345000,
+      "predicted": 488448
+    },
+    {
+      "actual": 499999,
+      "predicted": 448123
+    },
+    {
+      "actual": 235000,
+      "predicted": 258835
+    },
+    {
+      "actual": 249999,
+      "predicted": 157345
+    },
+    {
+      "actual": 1475000,
+      "predicted": 1494268
+    },
+    {
+      "actual": 395000,
+      "predicted": 288274
+    },
+    {
+      "actual": 220000,
+      "predicted": 198516
+    },
+    {
+      "actual": 170000,
+      "predicted": 482240
+    },
+    {
+      "actual": 85000,
+      "predicted": 132227
+    },
+    {
+      "actual": 200000,
+      "predicted": 172666
+    },
+    {
+      "actual": 570000,
+      "predicted": 542664
+    },
+    {
+      "actual": 315000,
+      "predicted": 269320
+    },
+    {
+      "actual": 110000,
+      "predicted": 93881
+    },
+    {
+      "actual": 501000,
+      "predicted": 464135
+    },
+    {
+      "actual": 448999,
+      "predicted": 502929
+    },
+    {
+      "actual": 1891111,
+      "predicted": 1891111
+    },
+    {
+      "actual": 159500,
+      "predicted": 313581
+    },
+    {
+      "actual": 344999,
+      "predicted": 500749
+    },
+    {
+      "actual": 449999,
+      "predicted": 411335
+    },
+    {
+      "actual": 1891111,
+      "predicted": 1889651
+    },
+    {
+      "actual": 865000,
+      "predicted": 741610
+    },
+    {
+      "actual": 699000,
+      "predicted": 608752
+    },
+    {
+      "actual": 375000,
+      "predicted": 356563
+    },
+    {
+      "actual": 489999,
+      "predicted": 471145
+    },
+    {
+      "actual": 224999,
+      "predicted": 232903
+    },
+    {
+      "actual": 1200000,
+      "predicted": 748447
+    },
+    {
+      "actual": 195000,
+      "predicted": 196069
+    },
+    {
+      "actual": 351000,
+      "predicted": 551111
+    },
+    {
+      "actual": 160000,
+      "predicted": 144246
+    },
+    {
+      "actual": 240000,
+      "predicted": 199806
+    },
+    {
+      "actual": 90000,
+      "predicted": 101220
+    },
+    {
+      "actual": 155000,
+      "predicted": 311082
+    },
+    {
+      "actual": 600000,
+      "predicted": 550774
+    },
+    {
+      "actual": 189500,
+      "predicted": 233148
+    },
+    {
+      "actual": 350000,
+      "predicted": 477944
+    },
+    {
+      "actual": 210000,
+      "predicted": 415052
+    },
+    {
+      "actual": 390000,
+      "predicted": 337657
+    },
+    {
+      "actual": 135000,
+      "predicted": 108107
+    },
+    {
+      "actual": 1600000,
+      "predicted": 495346
+    },
+    {
+      "actual": 701000,
+      "predicted": 559032
+    },
+    {
+      "actual": 265000,
+      "predicted": 350405
+    },
+    {
+      "actual": 525000,
+      "predicted": 476138
+    },
+    {
+      "actual": 372000,
+      "predicted": 317021
+    },
+    {
+      "actual": 635000,
+      "predicted": 478450
+    },
+    {
+      "actual": 550000,
+      "predicted": 505146
+    },
+    {
+      "actual": 575000,
+      "predicted": 478450
+    },
+    {
+      "actual": 485000,
+      "predicted": 452179
+    },
+    {
+      "actual": 155000,
+      "predicted": 191278
+    },
+    {
+      "actual": 345000,
+      "predicted": 348288
+    },
+    {
+      "actual": 325000,
+      "predicted": 314236
+    },
+    {
+      "actual": 329500,
+      "predicted": 373941
+    },
+    {
+      "actual": 195000,
+      "predicted": 507818
+    },
+    {
+      "actual": 251111,
+      "predicted": 273474
+    },
+    {
+      "actual": 569999,
+      "predicted": 370143
+    },
+    {
+      "actual": 69999,
+      "predicted": 110576
+    },
+    {
+      "actual": 299999,
+      "predicted": 326143
+    },
+    {
+      "actual": 220000,
+      "predicted": 206199
+    },
+    {
+      "actual": 399999,
+      "predicted": 315498
+    },
+    {
+      "actual": 450000,
+      "predicted": 606936
+    },
+    {
+      "actual": 270000,
+      "predicted": 163818
+    },
+    {
+      "actual": 350000,
+      "predicted": 282150
+    },
+    {
+      "actual": 158400,
+      "predicted": 175585
+    },
+    {
+      "actual": 350000,
+      "predicted": 279806
+    },
+    {
+      "actual": 179000,
+      "predicted": 238321
+    },
+    {
+      "actual": 125000,
+      "predicted": 129886
+    },
+    {
+      "actual": 200000,
+      "predicted": 281405
+    },
+    {
+      "actual": 299000,
+      "predicted": 367782
+    },
+    {
+      "actual": 220000,
+      "predicted": 242465
+    },
+    {
+      "actual": 150000,
+      "predicted": 295513
+    },
+    {
+      "actual": 285000,
+      "predicted": 228115
+    },
+    {
+      "actual": 830000,
+      "predicted": 665728
+    },
+    {
+      "actual": 210000,
+      "predicted": 240075
+    },
+    {
+      "actual": 340000,
+      "predicted": 322278
+    },
+    {
+      "actual": 90000,
+      "predicted": 64251
+    },
+    {
+      "actual": 289999,
+      "predicted": 214603
+    },
+    {
+      "actual": 349999,
+      "predicted": 255280
+    },
+    {
+      "actual": 849999,
+      "predicted": 723816
+    },
+    {
+      "actual": 749999,
+      "predicted": 342994
+    },
+    {
+      "actual": 399999,
+      "predicted": 485416
+    },
+    {
+      "actual": 274999,
+      "predicted": 349432
+    },
+    {
+      "actual": 984999,
+      "predicted": 932304
+    },
+    {
+      "actual": 224999,
+      "predicted": 245570
+    },
+    {
+      "actual": 599999,
+      "predicted": 552586
+    },
+    {
+      "actual": 244999,
+      "predicted": 358307
+    },
+    {
+      "actual": 399999,
+      "predicted": 448105
+    },
+    {
+      "actual": 474999,
+      "predicted": 411335
+    },
+    {
+      "actual": 499999,
+      "predicted": 398967
+    },
+    {
+      "actual": 310000,
+      "predicted": 246214
+    },
+    {
+      "actual": 85000,
+      "predicted": 108880
+    },
+    {
+      "actual": 245000,
+      "predicted": 268169
+    },
+    {
+      "actual": 189500,
+      "predicted": 157758
+    },
+    {
+      "actual": 159500,
+      "predicted": 203285
+    },
+    {
+      "actual": 275000,
+      "predicted": 296056
+    },
+    {
+      "actual": 370000,
+      "predicted": 409758
+    },
+    {
+      "actual": 168000,
+      "predicted": 224367
+    },
+    {
+      "actual": 150000,
+      "predicted": 111775
+    },
+    {
+      "actual": 145000,
+      "predicted": 204735
+    },
+    {
+      "actual": 98500,
+      "predicted": 137689
+    },
+    {
+      "actual": 85000,
+      "predicted": 89536
+    },
+    {
+      "actual": 575000,
+      "predicted": 569530
+    },
+    {
+      "actual": 549000,
+      "predicted": 484533
+    },
+    {
+      "actual": 209000,
+      "predicted": 246106
+    },
+    {
+      "actual": 185000,
+      "predicted": 191754
+    },
+    {
+      "actual": 900000,
+      "predicted": 262692
+    },
+    {
+      "actual": 699999,
+      "predicted": 801393
+    },
+    {
+      "actual": 274999,
+      "predicted": 216971
+    },
+    {
+      "actual": 599999,
+      "predicted": 522373
+    },
+    {
+      "actual": 199999,
+      "predicted": 158180
+    },
+    {
+      "actual": 544999,
+      "predicted": 468483
+    },
+    {
+      "actual": 199000,
+      "predicted": 215698
+    },
+    {
+      "actual": 320000,
+      "predicted": 320000
+    },
+    {
+      "actual": 540000,
+      "predicted": 513716
+    },
+    {
+      "actual": 340000,
+      "predicted": 387372
+    },
+    {
+      "actual": 49000,
+      "predicted": 88226
+    },
+    {
+      "actual": 700000,
+      "predicted": 654189
+    },
+    {
+      "actual": 55000,
+      "predicted": 44685
+    },
+    {
+      "actual": 895000,
+      "predicted": 946714
+    },
+    {
+      "actual": 355000,
+      "predicted": 256029
+    },
+    {
+      "actual": 565000,
+      "predicted": 485240
+    },
+    {
+      "actual": 365000,
+      "predicted": 253338
+    },
+    {
+      "actual": 145000,
+      "predicted": 147653
+    },
+    {
+      "actual": 210000,
+      "predicted": 200651
+    },
+    {
+      "actual": 40000,
+      "predicted": 148233
+    },
+    {
+      "actual": 125000,
+      "predicted": 222084
+    },
+    {
+      "actual": 135000,
+      "predicted": 169188
+    },
+    {
+      "actual": 135000,
+      "predicted": 187935
+    },
+    {
+      "actual": 285000,
+      "predicted": 123709
+    },
+    {
+      "actual": 145000,
+      "predicted": 158126
+    },
+    {
+      "actual": 135000,
+      "predicted": 104186
+    },
+    {
+      "actual": 450000,
+      "predicted": 198041
+    },
+    {
+      "actual": 375000,
+      "predicted": 469753
+    },
+    {
+      "actual": 365000,
+      "predicted": 345444
+    },
+    {
+      "actual": 500000,
+      "predicted": 367161
+    },
+    {
+      "actual": 400000,
+      "predicted": 454907
+    },
+    {
+      "actual": 390000,
+      "predicted": 785379
+    },
+    {
+      "actual": 330000,
+      "predicted": 542566
+    },
+    {
+      "actual": 265000,
+      "predicted": 454431
+    },
+    {
+      "actual": 379000,
+      "predicted": 386227
+    },
+    {
+      "actual": 219000,
+      "predicted": 273254
+    },
+    {
+      "actual": 385000,
+      "predicted": 390046
+    },
+    {
+      "actual": 275000,
+      "predicted": 595329
+    },
+    {
+      "actual": 330000,
+      "predicted": 521026
+    },
+    {
+      "actual": 110000,
+      "predicted": 149523
+    },
+    {
+      "actual": 80000,
+      "predicted": 95774
+    },
+    {
+      "actual": 519000,
+      "predicted": 507933
+    },
+    {
+      "actual": 730000,
+      "predicted": 681426
+    },
+    {
+      "actual": 699000,
+      "predicted": 166820
+    },
+    {
+      "actual": 2000000,
+      "predicted": 570219
+    },
+    {
+      "actual": 340000,
+      "predicted": 317943
+    },
+    {
+      "actual": 390000,
+      "predicted": 159228
+    },
+    {
+      "actual": 1400000,
+      "predicted": 577675
+    },
+    {
+      "actual": 245000,
+      "predicted": 350289
+    },
+    {
+      "actual": 320000,
+      "predicted": 320000
+    },
+    {
+      "actual": 450000,
+      "predicted": 629066
+    },
+    {
+      "actual": 311000,
+      "predicted": 333141
+    },
+    {
+      "actual": 399999,
+      "predicted": 254203
+    },
+    {
+      "actual": 599999,
+      "predicted": 510749
+    },
+    {
+      "actual": 855000,
+      "predicted": 741610
+    },
+    {
+      "actual": 535000,
+      "predicted": 556870
+    },
+    {
+      "actual": 699000,
+      "predicted": 636224
+    },
+    {
+      "actual": 375000,
+      "predicted": 303822
+    },
+    {
+      "actual": 178000,
+      "predicted": 205495
+    },
+    {
+      "actual": 300000,
+      "predicted": 215034
+    },
+    {
+      "actual": 90000,
+      "predicted": 72904
+    },
+    {
+      "actual": 95000,
+      "predicted": 71987
+    },
+    {
+      "actual": 255000,
+      "predicted": 284997
+    },
+    {
+      "actual": 245000,
+      "predicted": 200285
+    },
+    {
+      "actual": 289999,
+      "predicted": 315447
+    },
+    {
+      "actual": 499999,
+      "predicted": 606784
+    },
+    {
+      "actual": 489999,
+      "predicted": 552985
+    },
+    {
+      "actual": 549999,
+      "predicted": 462987
+    },
+    {
+      "actual": 380000,
+      "predicted": 375788
+    },
+    {
+      "actual": 325000,
+      "predicted": 340932
+    },
+    {
+      "actual": 57000,
+      "predicted": 64565
+    },
+    {
+      "actual": 349999,
+      "predicted": 308742
+    },
+    {
+      "actual": 349999,
+      "predicted": 435585
+    },
+    {
+      "actual": 410000,
+      "predicted": 338243
+    },
+    {
+      "actual": 225000,
+      "predicted": 237335
+    },
+    {
+      "actual": 120000,
+      "predicted": 83798
+    },
+    {
+      "actual": 59000,
+      "predicted": 55858
+    },
+    {
+      "actual": 80000,
+      "predicted": 120759
+    },
+    {
+      "actual": 220000,
+      "predicted": 229415
+    },
+    {
+      "actual": 599000,
+      "predicted": 673180
+    },
+    {
+      "actual": 80000,
+      "predicted": 87935
+    },
+    {
+      "actual": 675000,
+      "predicted": 446314
+    },
+    {
+      "actual": 150000,
+      "predicted": 64107
+    },
+    {
+      "actual": 72500,
+      "predicted": 93477
+    },
+    {
+      "actual": 610000,
+      "predicted": 297946
+    },
+    {
+      "actual": 230000,
+      "predicted": 211226
+    },
+    {
+      "actual": 175000,
+      "predicted": 245277
+    },
+    {
+      "actual": 520000,
+      "predicted": 533073
+    },
+    {
+      "actual": 524999,
+      "predicted": 633152
+    },
+    {
+      "actual": 299999,
+      "predicted": 276623
+    },
+    {
+      "actual": 299999,
+      "predicted": 278850
+    },
+    {
+      "actual": 284999,
+      "predicted": 336896
+    },
+    {
+      "actual": 220000,
+      "predicted": 265468
+    },
+    {
+      "actual": 424999,
+      "predicted": 424818
+    },
+    {
+      "actual": 644999,
+      "predicted": 544128
+    },
+    {
+      "actual": 399999,
+      "predicted": 383076
+    },
+    {
+      "actual": 199999,
+      "predicted": 242867
+    },
+    {
+      "actual": 584999,
+      "predicted": 395662
+    },
+    {
+      "actual": 349999,
+      "predicted": 289401
+    },
+    {
+      "actual": 449999,
+      "predicted": 444020
+    },
+    {
+      "actual": 799999,
+      "predicted": 693811
+    },
+    {
+      "actual": 444999,
+      "predicted": 452320
+    },
+    {
+      "actual": 649999,
+      "predicted": 808326
+    },
+    {
+      "actual": 444999,
+      "predicted": 364408
+    },
+    {
+      "actual": 689999,
+      "predicted": 717004
+    },
+    {
+      "actual": 344999,
+      "predicted": 369626
+    },
+    {
+      "actual": 944999,
+      "predicted": 717840
+    },
+    {
+      "actual": 274999,
+      "predicted": 300771
+    },
+    {
+      "actual": 689999,
+      "predicted": 574116
+    },
+    {
+      "actual": 574999,
+      "predicted": 508319
+    },
+    {
+      "actual": 374999,
+      "predicted": 352206
+    },
+    {
+      "actual": 199999,
+      "predicted": 415160
+    },
+    {
+      "actual": 549999,
+      "predicted": 478862
+    },
+    {
+      "actual": 130000,
+      "predicted": 105593
+    },
+    {
+      "actual": 210000,
+      "predicted": 203373
+    },
+    {
+      "actual": 401000,
+      "predicted": 416205
+    },
+    {
+      "actual": 1350000,
+      "predicted": 1414764
+    },
+    {
+      "actual": 600000,
+      "predicted": 190595
+    },
+    {
+      "actual": 610000,
+      "predicted": 560421
+    },
+    {
+      "actual": 400000,
+      "predicted": 664082
+    },
+    {
+      "actual": 524999,
+      "predicted": 433670
+    },
+    {
+      "actual": 449999,
+      "predicted": 367175
+    },
+    {
+      "actual": 174999,
+      "predicted": 346603
+    },
+    {
+      "actual": 244999,
+      "predicted": 208514
+    },
+    {
+      "actual": 574999,
+      "predicted": 533055
+    },
+    {
+      "actual": 244999,
+      "predicted": 236940
+    },
+    {
+      "actual": 239999,
+      "predicted": 244794
+    },
+    {
+      "actual": 99999,
+      "predicted": 221996
+    },
+    {
+      "actual": 489999,
+      "predicted": 403301
+    },
+    {
+      "actual": 324999,
+      "predicted": 323010
+    },
+    {
+      "actual": 1074999,
+      "predicted": 340909
+    },
+    {
+      "actual": 230000,
+      "predicted": 211248
+    },
+    {
+      "actual": 699000,
+      "predicted": 792920
+    },
+    {
+      "actual": 1000000,
+      "predicted": 863880
+    },
+    {
+      "actual": 240000,
+      "predicted": 225136
+    },
+    {
+      "actual": 110000,
+      "predicted": 101438
+    },
+    {
+      "actual": 1130000,
+      "predicted": 777797
+    },
+    {
+      "actual": 250000,
+      "predicted": 186388
+    },
+    {
+      "actual": 340000,
+      "predicted": 345016
+    },
+    {
+      "actual": 120000,
+      "predicted": 127280
+    },
+    {
+      "actual": 265000,
+      "predicted": 252973
+    },
+    {
+      "actual": 85000,
+      "predicted": 50768
+    },
+    {
+      "actual": 175000,
+      "predicted": 266245
+    },
+    {
+      "actual": 350000,
+      "predicted": 241929
+    },
+    {
+      "actual": 149000,
+      "predicted": 111098
+    },
+    {
+      "actual": 425000,
+      "predicted": 385468
+    },
+    {
+      "actual": 150000,
+      "predicted": 198095
+    },
+    {
+      "actual": 225000,
+      "predicted": 271321
+    },
+    {
+      "actual": 375000,
+      "predicted": 358490
+    },
+    {
+      "actual": 770000,
+      "predicted": 703695
+    },
+    {
+      "actual": 30000,
+      "predicted": 49822
+    },
+    {
+      "actual": 335000,
+      "predicted": 368005
+    },
+    {
+      "actual": 450000,
+      "predicted": 501492
+    },
+    {
+      "actual": 225000,
+      "predicted": 255951
+    },
+    {
+      "actual": 80000,
+      "predicted": 60636
+    },
+    {
+      "actual": 130000,
+      "predicted": 164145
+    },
+    {
+      "actual": 245000,
+      "predicted": 341142
+    },
+    {
+      "actual": 399000,
+      "predicted": 146945
+    },
+    {
+      "actual": 450000,
+      "predicted": 479808
+    },
+    {
+      "actual": 65000,
+      "predicted": 52246
+    },
+    {
+      "actual": 75000,
+      "predicted": 88151
+    },
+    {
+      "actual": 70000,
+      "predicted": 46671
+    },
+    {
+      "actual": 190000,
+      "predicted": 595177
+    },
+    {
+      "actual": 600000,
+      "predicted": 574789
+    },
+    {
+      "actual": 240000,
+      "predicted": 203676
+    },
+    {
+      "actual": 155000,
+      "predicted": 148189
+    },
+    {
+      "actual": 169999,
+      "predicted": 235539
+    },
+    {
+      "actual": 450000,
+      "predicted": 444046
+    },
+    {
+      "actual": 40000,
+      "predicted": 70649
+    },
+    {
+      "actual": 165000,
+      "predicted": 380556
+    },
+    {
+      "actual": 270000,
+      "predicted": 248175
+    },
+    {
+      "actual": 280000,
+      "predicted": 407182
+    },
+    {
+      "actual": 560000,
+      "predicted": 582331
+    },
+    {
+      "actual": 950000,
+      "predicted": 955537
+    },
+    {
+      "actual": 310000,
+      "predicted": 245773
+    },
+    {
+      "actual": 715000,
+      "predicted": 399211
+    },
+    {
+      "actual": 340000,
+      "predicted": 353605
+    },
+    {
+      "actual": 235000,
+      "predicted": 228419
+    },
+    {
+      "actual": 610000,
+      "predicted": 586068
+    },
+    {
+      "actual": 95000,
+      "predicted": 110067
+    },
+    {
+      "actual": 1000000,
+      "predicted": 430886
+    },
+    {
+      "actual": 220000,
+      "predicted": 341612
+    },
+    {
+      "actual": 1200000,
+      "predicted": 748651
+    },
+    {
+      "actual": 230000,
+      "predicted": 273254
+    },
+    {
+      "actual": 45000,
+      "predicted": 59764
+    },
+    {
+      "actual": 940000,
+      "predicted": 507253
+    },
+    {
+      "actual": 155555,
+      "predicted": 41006
+    },
+    {
+      "actual": 1500000,
+      "predicted": 459625
+    },
+    {
+      "actual": 210000,
+      "predicted": 190388
+    },
+    {
+      "actual": 495000,
+      "predicted": 388791
+    },
+    {
+      "actual": 125000,
+      "predicted": 143237
+    },
+    {
+      "actual": 195000,
+      "predicted": 201168
+    },
+    {
+      "actual": 550000,
+      "predicted": 516060
+    },
+    {
+      "actual": 270000,
+      "predicted": 410381
+    },
+    {
+      "actual": 500000,
+      "predicted": 563411
+    },
+    {
+      "actual": 240000,
+      "predicted": 337063
+    },
+    {
+      "actual": 800000,
+      "predicted": 427479
+    },
+    {
+      "actual": 1299000,
+      "predicted": 1041896
+    },
+    {
+      "actual": 530000,
+      "predicted": 206942
+    },
+    {
+      "actual": 1499000,
+      "predicted": 1524001
+    },
+    {
+      "actual": 220000,
+      "predicted": 286015
+    },
+    {
+      "actual": 250000,
+      "predicted": 398262
+    },
+    {
+      "actual": 395000,
+      "predicted": 357444
+    },
+    {
+      "actual": 130000,
+      "predicted": 228362
+    },
+    {
+      "actual": 32000,
+      "predicted": 135763
+    },
+    {
+      "actual": 540000,
+      "predicted": 541137
+    },
+    {
+      "actual": 405000,
+      "predicted": 449529
+    },
+    {
+      "actual": 400000,
+      "predicted": 408002
+    },
+    {
+      "actual": 760000,
+      "predicted": 486351
+    },
+    {
+      "actual": 500000,
+      "predicted": 466244
+    },
+    {
+      "actual": 175000,
+      "predicted": 230544
+    },
+    {
+      "actual": 750000,
+      "predicted": 519295
+    },
+    {
+      "actual": 419000,
+      "predicted": 500159
+    },
+    {
+      "actual": 90000,
+      "predicted": 60636
+    },
+    {
+      "actual": 140000,
+      "predicted": 449359
+    },
+    {
+      "actual": 1540000,
+      "predicted": 338552
+    },
+    {
+      "actual": 275000,
+      "predicted": 145339
+    },
+    {
+      "actual": 150000,
+      "predicted": 81633
+    },
+    {
+      "actual": 230000,
+      "predicted": 239049
+    },
+    {
+      "actual": 123000,
+      "predicted": 131848
+    },
+    {
+      "actual": 300000,
+      "predicted": 263443
+    },
+    {
+      "actual": 165000,
+      "predicted": 200951
+    },
+    {
+      "actual": 498000,
+      "predicted": 513663
+    },
+    {
+      "actual": 480000,
+      "predicted": 450000
+    },
+    {
+      "actual": 488000,
+      "predicted": 629805
+    },
+    {
+      "actual": 250000,
+      "predicted": 270647
+    },
+    {
+      "actual": 220000,
+      "predicted": 249798
+    },
+    {
+      "actual": 290000,
+      "predicted": 315918
+    },
+    {
+      "actual": 1525000,
+      "predicted": 920066
+    },
+    {
+      "actual": 548900,
+      "predicted": 548811
+    },
+    {
+      "actual": 650000,
+      "predicted": 171916
+    },
+    {
+      "actual": 55000,
+      "predicted": 36931
+    },
+    {
+      "actual": 550000,
+      "predicted": 496769
+    },
+    {
+      "actual": 399000,
+      "predicted": 420380
+    },
+    {
+      "actual": 730000,
+      "predicted": 534055
+    },
+    {
+      "actual": 725000,
+      "predicted": 619642
+    },
+    {
+      "actual": 195000,
+      "predicted": 648809
+    },
+    {
+      "actual": 130000,
+      "predicted": 131147
+    },
+    {
+      "actual": 190000,
+      "predicted": 278873
+    },
+    {
+      "actual": 250000,
+      "predicted": 284999
+    },
+    {
+      "actual": 80000,
+      "predicted": 77581
+    },
+    {
+      "actual": 120000,
+      "predicted": 58567
+    },
+    {
+      "actual": 149000,
+      "predicted": 144312
+    },
+    {
+      "actual": 250000,
+      "predicted": 163929
+    },
+    {
+      "actual": 120000,
+      "predicted": 121014
+    },
+    {
+      "actual": 450000,
+      "predicted": 729056
+    },
+    {
+      "actual": 99999,
+      "predicted": 82145
+    },
+    {
+      "actual": 135000,
+      "predicted": 124796
+    },
+    {
+      "actual": 225000,
+      "predicted": 538471
+    },
+    {
+      "actual": 99000,
+      "predicted": 142264
+    },
+    {
+      "actual": 370000,
+      "predicted": 522291
+    },
+    {
+      "actual": 52000,
+      "predicted": 61438
+    },
+    {
+      "actual": 190000,
+      "predicted": 340764
+    },
+    {
+      "actual": 499000,
+      "predicted": 536609
+    },
+    {
+      "actual": 149000,
+      "predicted": 249658
+    },
+    {
+      "actual": 400000,
+      "predicted": 439949
+    },
+    {
+      "actual": 120000,
+      "predicted": 296365
+    },
+    {
+      "actual": 250000,
+      "predicted": 356602
+    },
+    {
+      "actual": 375000,
+      "predicted": 375345
+    },
+    {
+      "actual": 381000,
+      "predicted": 301296
+    },
+    {
+      "actual": 180000,
+      "predicted": 290190
+    },
+    {
+      "actual": 580000,
+      "predicted": 716104
+    },
+    {
+      "actual": 278000,
+      "predicted": 259047
+    },
+    {
+      "actual": 1000000,
+      "predicted": 948124
+    },
+    {
+      "actual": 690000,
+      "predicted": 484562
+    },
+    {
+      "actual": 480000,
+      "predicted": 388354
+    },
+    {
+      "actual": 85000,
+      "predicted": 90148
+    },
+    {
+      "actual": 40000,
+      "predicted": 54694
+    },
+    {
+      "actual": 90000,
+      "predicted": 236119
+    },
+    {
+      "actual": 340000,
+      "predicted": 383879
+    },
+    {
+      "actual": 260000,
+      "predicted": 283523
+    },
+    {
+      "actual": 250000,
+      "predicted": 152859
+    },
+    {
+      "actual": 180000,
+      "predicted": 155549
+    },
+    {
+      "actual": 350000,
+      "predicted": 444559
+    },
+    {
+      "actual": 90001,
+      "predicted": 81407
+    },
+    {
+      "actual": 115000,
+      "predicted": 116616
+    },
+    {
+      "actual": 1599000,
+      "predicted": 1222857
+    },
+    {
+      "actual": 130000,
+      "predicted": 52699
+    },
+    {
+      "actual": 159000,
+      "predicted": 158987
+    },
+    {
+      "actual": 160000,
+      "predicted": 175505
+    },
+    {
+      "actual": 110000,
+      "predicted": 122790
+    },
+    {
+      "actual": 425000,
+      "predicted": 497089
+    },
+    {
+      "actual": 900000,
+      "predicted": 518431
+    },
+    {
+      "actual": 150000,
+      "predicted": 201744
+    },
+    {
+      "actual": 110000,
+      "predicted": 182715
+    },
+    {
+      "actual": 51999,
+      "predicted": 61190
+    },
+    {
+      "actual": 115000,
+      "predicted": 182715
+    },
+    {
+      "actual": 215000,
+      "predicted": 151724
+    },
+    {
+      "actual": 580000,
+      "predicted": 495944
+    },
+    {
+      "actual": 380000,
+      "predicted": 376962
+    },
+    {
+      "actual": 350000,
+      "predicted": 370056
+    },
+    {
+      "actual": 35000,
+      "predicted": 50329
+    },
+    {
+      "actual": 1150000,
+      "predicted": 1030580
+    },
+    {
+      "actual": 300000,
+      "predicted": 186602
+    },
+    {
+      "actual": 269000,
+      "predicted": 242838
+    },
+    {
+      "actual": 60000,
+      "predicted": 60000
+    },
+    {
+      "actual": 400000,
+      "predicted": 294462
+    },
+    {
+      "actual": 430000,
+      "predicted": 669308
+    },
+    {
+      "actual": 140000,
+      "predicted": 204636
+    },
+    {
+      "actual": 1299000,
+      "predicted": 703149
+    },
+    {
+      "actual": 199000,
+      "predicted": 202589
+    },
+    {
+      "actual": 90000,
+      "predicted": 80971
+    },
+    {
+      "actual": 265000,
+      "predicted": 312251
+    },
+    {
+      "actual": 100000,
+      "predicted": 126854
+    },
+    {
+      "actual": 215000,
+      "predicted": 194944
+    },
+    {
+      "actual": 380000,
+      "predicted": 403345
+    },
+    {
+      "actual": 401919,
+      "predicted": 395886
+    },
+    {
+      "actual": 490000,
+      "predicted": 177481
+    },
+    {
+      "actual": 280000,
+      "predicted": 345680
+    },
+    {
+      "actual": 650000,
+      "predicted": 752005
+    },
+    {
+      "actual": 160000,
+      "predicted": 296541
+    },
+    {
+      "actual": 424000,
+      "predicted": 284867
+    },
+    {
+      "actual": 225000,
+      "predicted": 187461
+    },
+    {
+      "actual": 350000,
+      "predicted": 197867
+    },
+    {
+      "actual": 485000,
+      "predicted": 472727
+    },
+    {
+      "actual": 205000,
+      "predicted": 367912
+    },
+    {
+      "actual": 160000,
+      "predicted": 158339
+    },
+    {
+      "actual": 310000,
+      "predicted": 510893
+    },
+    {
+      "actual": 180000,
+      "predicted": 152390
+    },
+    {
+      "actual": 549900,
+      "predicted": 548900
+    },
+    {
+      "actual": 150000,
+      "predicted": 158116
+    },
+    {
+      "actual": 175000,
+      "predicted": 220090
+    },
+    {
+      "actual": 95000,
+      "predicted": 258395
+    },
+    {
+      "actual": 230000,
+      "predicted": 164145
+    },
+    {
+      "actual": 230000,
+      "predicted": 131792
+    },
+    {
+      "actual": 180000,
+      "predicted": 70343
+    },
+    {
+      "actual": 400000,
+      "predicted": 500794
+    },
+    {
+      "actual": 185000,
+      "predicted": 237266
+    },
+    {
+      "actual": 385000,
+      "predicted": 667385
+    },
+    {
+      "actual": 90000,
+      "predicted": 116503
+    },
+    {
+      "actual": 32000,
+      "predicted": 138748
+    },
+    {
+      "actual": 435000,
+      "predicted": 489676
+    },
+    {
+      "actual": 225000,
+      "predicted": 161725
+    },
+    {
+      "actual": 189700,
+      "predicted": 133981
+    },
+    {
+      "actual": 389700,
+      "predicted": 497761
+    },
+    {
+      "actual": 365000,
+      "predicted": 396383
+    },
+    {
+      "actual": 360000,
+      "predicted": 258968
+    },
+    {
+      "actual": 210000,
+      "predicted": 193625
+    },
+    {
+      "actual": 170000,
+      "predicted": 330308
+    },
+    {
+      "actual": 380000,
+      "predicted": 307610
+    },
+    {
+      "actual": 295000,
+      "predicted": 350248
+    },
+    {
+      "actual": 185000,
+      "predicted": 249095
+    },
+    {
+      "actual": 160000,
+      "predicted": 108311
+    },
+    {
+      "actual": 290000,
+      "predicted": 332299
+    },
+    {
+      "actual": 100000,
+      "predicted": 153405
+    },
+    {
+      "actual": 315000,
+      "predicted": 362607
+    },
+    {
+      "actual": 114990,
+      "predicted": 231778
+    },
+    {
+      "actual": 120000,
+      "predicted": 269657
+    },
+    {
+      "actual": 125000,
+      "predicted": 176103
+    },
+    {
+      "actual": 210000,
+      "predicted": 257485
+    },
+    {
+      "actual": 855000,
+      "predicted": 297317
+    },
+    {
+      "actual": 260000,
+      "predicted": 225807
+    },
+    {
+      "actual": 95000,
+      "predicted": 55277
+    },
+    {
+      "actual": 255000,
+      "predicted": 225533
+    },
+    {
+      "actual": 300000,
+      "predicted": 299180
+    },
+    {
+      "actual": 340000,
+      "predicted": 340465
+    },
+    {
+      "actual": 550000,
+      "predicted": 542895
+    },
+    {
+      "actual": 60000,
+      "predicted": 78492
+    },
+    {
+      "actual": 750000,
+      "predicted": 775972
+    },
+    {
+      "actual": 230000,
+      "predicted": 241953
+    },
+    {
+      "actual": 130000,
+      "predicted": 150348
+    },
+    {
+      "actual": 270000,
+      "predicted": 230461
+    },
+    {
+      "actual": 280000,
+      "predicted": 289642
+    },
+    {
+      "actual": 600000,
+      "predicted": 460727
+    },
+    {
+      "actual": 190000,
+      "predicted": 263102
+    },
+    {
+      "actual": 500000,
+      "predicted": 415904
+    },
+    {
+      "actual": 1065000,
+      "predicted": 644160
+    },
+    {
+      "actual": 350000,
+      "predicted": 543273
+    },
+    {
+      "actual": 350000,
+      "predicted": 412881
+    },
+    {
+      "actual": 540000,
+      "predicted": 571283
+    },
+    {
+      "actual": 470000,
+      "predicted": 408002
+    },
+    {
+      "actual": 179000,
+      "predicted": 264926
+    },
+    {
+      "actual": 48000,
+      "predicted": 82102
+    },
+    {
+      "actual": 650000,
+      "predicted": 675387
+    },
+    {
+      "actual": 190000,
+      "predicted": 187861
+    },
+    {
+      "actual": 500000,
+      "predicted": 215001
+    },
+    {
+      "actual": 270000,
+      "predicted": 183556
+    },
+    {
+      "actual": 125000,
+      "predicted": 131911
+    },
+    {
+      "actual": 188000,
+      "predicted": 205386
+    },
+    {
+      "actual": 380000,
+      "predicted": 391495
+    },
+    {
+      "actual": 365000,
+      "predicted": 308821
+    },
+    {
+      "actual": 465000,
+      "predicted": 380738
+    },
+    {
+      "actual": 240000,
+      "predicted": 220413
+    },
+    {
+      "actual": 179999,
+      "predicted": 149844
+    },
+    {
+      "actual": 140000,
+      "predicted": 67361
+    },
+    {
+      "actual": 2390000,
+      "predicted": 1623578
+    },
+    {
+      "actual": 1075000,
+      "predicted": 984061
+    },
+    {
+      "actual": 475000,
+      "predicted": 285693
+    },
+    {
+      "actual": 1025000,
+      "predicted": 853527
+    },
+    {
+      "actual": 615000,
+      "predicted": 467683
+    },
+    {
+      "actual": 475000,
+      "predicted": 487003
+    },
+    {
+      "actual": 270000,
+      "predicted": 232774
+    },
+    {
+      "actual": 475000,
+      "predicted": 518724
+    },
+    {
+      "actual": 240000,
+      "predicted": 207655
+    },
+    {
+      "actual": 120000,
+      "predicted": 91608
+    },
+    {
+      "actual": 1900000,
+      "predicted": 1454704
+    },
+    {
+      "actual": 360000,
+      "predicted": 677432
+    },
+    {
+      "actual": 450000,
+      "predicted": 480000
+    },
+    {
+      "actual": 900000,
+      "predicted": 888393
+    },
+    {
+      "actual": 650000,
+      "predicted": 506130
+    },
+    {
+      "actual": 275000,
+      "predicted": 247591
+    },
+    {
+      "actual": 210000,
+      "predicted": 152481
+    },
+    {
+      "actual": 175000,
+      "predicted": 212915
+    },
+    {
+      "actual": 85000,
+      "predicted": 144946
+    },
+    {
+      "actual": 1490000,
+      "predicted": 1568799
+    },
+    {
+      "actual": 800000,
+      "predicted": 424783
+    },
+    {
+      "actual": 450000,
+      "predicted": 197957
+    },
+    {
+      "actual": 1000000,
+      "predicted": 350955
+    },
+    {
+      "actual": 1510000,
+      "predicted": 1484280
+    },
+    {
+      "actual": 790000,
+      "predicted": 427403
+    },
+    {
+      "actual": 1725000,
+      "predicted": 1477599
+    },
+    {
+      "actual": 135000,
+      "predicted": 143963
+    },
+    {
+      "actual": 1000000,
+      "predicted": 990909
+    },
+    {
+      "actual": 299999,
+      "predicted": 246807
+    },
+    {
+      "actual": 1225000,
+      "predicted": 273130
+    },
+    {
+      "actual": 175000,
+      "predicted": 245599
+    },
+    {
+      "actual": 200000,
+      "predicted": 243537
+    },
+    {
+      "actual": 270000,
+      "predicted": 136032
+    },
+    {
+      "actual": 525000,
+      "predicted": 535528
+    },
+    {
+      "actual": 180000,
+      "predicted": 94192
+    },
+    {
+      "actual": 140000,
+      "predicted": 118871
+    },
+    {
+      "actual": 400000,
+      "predicted": 441651
+    },
+    {
+      "actual": 499000,
+      "predicted": 529124
+    },
+    {
+      "actual": 85000,
+      "predicted": 159626
+    },
+    {
+      "actual": 70000,
+      "predicted": 65953
+    },
+    {
+      "actual": 550000,
+      "predicted": 283396
+    },
+    {
+      "actual": 370000,
+      "predicted": 339731
+    },
+    {
+      "actual": 690000,
+      "predicted": 446024
+    },
+    {
+      "actual": 250000,
+      "predicted": 174850
+    },
+    {
+      "actual": 110000,
+      "predicted": 156548
+    },
+    {
+      "actual": 490000,
+      "predicted": 442836
+    },
+    {
+      "actual": 320000,
+      "predicted": 290942
+    },
+    {
+      "actual": 68000,
+      "predicted": 71995
+    },
+    {
+      "actual": 130000,
+      "predicted": 238767
+    },
+    {
+      "actual": 970000,
+      "predicted": 407651
+    },
+    {
+      "actual": 3100000,
+      "predicted": 473828
+    },
+    {
+      "actual": 280000,
+      "predicted": 252374
+    },
+    {
+      "actual": 125000,
+      "predicted": 156638
+    },
+    {
+      "actual": 285000,
+      "predicted": 316278
+    },
+    {
+      "actual": 165000,
+      "predicted": 185673
+    },
+    {
+      "actual": 250000,
+      "predicted": 159483
+    },
+    {
+      "actual": 390000,
+      "predicted": 385296
+    },
+    {
+      "actual": 60000,
+      "predicted": 66671
+    },
+    {
+      "actual": 215000,
+      "predicted": 145147
+    },
+    {
+      "actual": 475000,
+      "predicted": 423259
+    },
+    {
+      "actual": 899000,
+      "predicted": 730417
+    },
+    {
+      "actual": 1499000,
+      "predicted": 852661
+    },
+    {
+      "actual": 240000,
+      "predicted": 173953
+    },
+    {
+      "actual": 99000,
+      "predicted": 98490
+    },
+    {
+      "actual": 260000,
+      "predicted": 257680
+    },
+    {
+      "actual": 1200000,
+      "predicted": 918352
+    },
+    {
+      "actual": 115000,
+      "predicted": 77553
+    },
+    {
+      "actual": 88000,
+      "predicted": 206114
+    },
+    {
+      "actual": 390000,
+      "predicted": 401741
+    },
+    {
+      "actual": 135000,
+      "predicted": 81174
+    },
+    {
+      "actual": 90000,
+      "predicted": 76576
+    },
+    {
+      "actual": 220000,
+      "predicted": 206770
+    },
+    {
+      "actual": 424999,
+      "predicted": 522432
+    },
+    {
+      "actual": 135000,
+      "predicted": 77599
+    },
+    {
+      "actual": 95000,
+      "predicted": 90632
+    },
+    {
+      "actual": 430000,
+      "predicted": 709294
+    },
+    {
+      "actual": 115000,
+      "predicted": 91608
+    },
+    {
+      "actual": 215000,
+      "predicted": 238510
+    },
+    {
+      "actual": 53000,
+      "predicted": 94818
+    },
+    {
+      "actual": 500000,
+      "predicted": 387559
+    },
+    {
+      "actual": 85000,
+      "predicted": 132456
+    },
+    {
+      "actual": 165000,
+      "predicted": 188445
+    },
+    {
+      "actual": 200000,
+      "predicted": 247320
+    },
+    {
+      "actual": 200000,
+      "predicted": 361065
+    },
+    {
+      "actual": 425000,
+      "predicted": 493982
+    },
+    {
+      "actual": 600000,
+      "predicted": 371952
+    },
+    {
+      "actual": 130000,
+      "predicted": 168911
+    },
+    {
+      "actual": 430000,
+      "predicted": 401595
+    },
+    {
+      "actual": 568500,
+      "predicted": 443975
+    },
+    {
+      "actual": 71000,
+      "predicted": 95976
+    },
+    {
+      "actual": 560000,
+      "predicted": 696477
+    },
+    {
+      "actual": 590000,
+      "predicted": 572152
+    },
+    {
+      "actual": 125000,
+      "predicted": 253792
+    },
+    {
+      "actual": 135000,
+      "predicted": 77553
+    },
+    {
+      "actual": 60000,
+      "predicted": 63916
+    },
+    {
+      "actual": 95000,
+      "predicted": 160691
+    },
+    {
+      "actual": 240000,
+      "predicted": 387693
+    },
+    {
+      "actual": 115000,
+      "predicted": 83365
+    },
+    {
+      "actual": 795000,
+      "predicted": 700260
+    },
+    {
+      "actual": 55000,
+      "predicted": 129451
+    },
+    {
+      "actual": 300000,
+      "predicted": 354315
+    },
+    {
+      "actual": 320000,
+      "predicted": 338243
+    },
+    {
+      "actual": 265000,
+      "predicted": 251674
+    },
+    {
+      "actual": 160000,
+      "predicted": 121896
+    },
+    {
+      "actual": 300000,
+      "predicted": 498730
+    },
+    {
+      "actual": 130000,
+      "predicted": 114730
+    },
+    {
+      "actual": 250000,
+      "predicted": 208626
+    },
+    {
+      "actual": 380000,
+      "predicted": 264505
+    },
+    {
+      "actual": 42000,
+      "predicted": 60859
+    },
+    {
+      "actual": 400000,
+      "predicted": 336422
+    },
+    {
+      "actual": 120000,
+      "predicted": 239017
+    },
+    {
+      "actual": 130000,
+      "predicted": 255901
+    },
+    {
+      "actual": 189000,
+      "predicted": 249136
+    },
+    {
+      "actual": 365000,
+      "predicted": 405920
+    },
+    {
+      "actual": 170000,
+      "predicted": 255221
+    },
+    {
+      "actual": 215000,
+      "predicted": 84152
+    },
+    {
+      "actual": 60000,
+      "predicted": 59971
+    },
+    {
+      "actual": 599999,
+      "predicted": 522978
+    },
+    {
+      "actual": 400000,
+      "predicted": 179783
+    },
+    {
+      "actual": 900000,
+      "predicted": 457711
+    },
+    {
+      "actual": 299999,
+      "predicted": 338094
+    },
+    {
+      "actual": 374999,
+      "predicted": 356414
+    },
+    {
+      "actual": 600000,
+      "predicted": 166776
+    },
+    {
+      "actual": 70000,
+      "predicted": 98274
+    },
+    {
+      "actual": 100000,
+      "predicted": 71984
+    },
+    {
+      "actual": 150000,
+      "predicted": 193150
+    },
+    {
+      "actual": 225000,
+      "predicted": 328641
+    },
+    {
+      "actual": 210000,
+      "predicted": 218157
+    },
+    {
+      "actual": 425000,
+      "predicted": 340466
+    },
+    {
+      "actual": 162000,
+      "predicted": 174970
+    },
+    {
+      "actual": 60000,
+      "predicted": 71989
+    },
+    {
+      "actual": 650000,
+      "predicted": 701007
+    },
+    {
+      "actual": 750000,
+      "predicted": 823789
+    },
+    {
+      "actual": 375000,
+      "predicted": 317340
+    },
+    {
+      "actual": 230000,
+      "predicted": 238373
+    },
+    {
+      "actual": 35999,
+      "predicted": 47703
+    },
+    {
+      "actual": 380000,
+      "predicted": 551979
+    },
+    {
+      "actual": 560000,
+      "predicted": 531891
+    },
+    {
+      "actual": 285000,
+      "predicted": 337345
+    },
+    {
+      "actual": 2900000,
+      "predicted": 728570
+    },
+    {
+      "actual": 39999,
+      "predicted": 71989
+    },
+    {
+      "actual": 85000,
+      "predicted": 78797
+    },
+    {
+      "actual": 395000,
+      "predicted": 349300
+    },
+    {
+      "actual": 175000,
+      "predicted": 170344
+    },
+    {
+      "actual": 400000,
+      "predicted": 425000
+    },
+    {
+      "actual": 750000,
+      "predicted": 604384
+    },
+    {
+      "actual": 250000,
+      "predicted": 271833
+    },
+    {
+      "actual": 425000,
+      "predicted": 396668
+    },
+    {
+      "actual": 525000,
+      "predicted": 323963
+    },
+    {
+      "actual": 130000,
+      "predicted": 299612
+    },
+    {
+      "actual": 30000,
+      "predicted": 44804
+    },
+    {
+      "actual": 475000,
+      "predicted": 394219
+    },
+    {
+      "actual": 300000,
+      "predicted": 180889
+    },
+    {
+      "actual": 60000,
+      "predicted": 68610
+    },
+    {
+      "actual": 100000,
+      "predicted": 85912
+    },
+    {
+      "actual": 260000,
+      "predicted": 313014
+    },
+    {
+      "actual": 100000,
+      "predicted": 142261
+    },
+    {
+      "actual": 265000,
+      "predicted": 281376
+    },
+    {
+      "actual": 180000,
+      "predicted": 257862
+    },
+    {
+      "actual": 45000,
+      "predicted": 80621
+    },
+    {
+      "actual": 50500,
+      "predicted": 137488
+    },
+    {
+      "actual": 270000,
+      "predicted": 242838
+    },
+    {
+      "actual": 290000,
+      "predicted": 400334
+    },
+    {
+      "actual": 325000,
+      "predicted": 488477
+    },
+    {
+      "actual": 160000,
+      "predicted": 131792
+    },
+    {
+      "actual": 350000,
+      "predicted": 241506
+    },
+    {
+      "actual": 290000,
+      "predicted": 192475
+    },
+    {
+      "actual": 290000,
+      "predicted": 187533
+    },
+    {
+      "actual": 465000,
+      "predicted": 239309
+    },
+    {
+      "actual": 325000,
+      "predicted": 364496
+    },
+    {
+      "actual": 510000,
+      "predicted": 574686
+    },
+    {
+      "actual": 860000,
+      "predicted": 424749
+    },
+    {
+      "actual": 450000,
+      "predicted": 460588
+    },
+    {
+      "actual": 125000,
+      "predicted": 80444
+    },
+    {
+      "actual": 500001,
+      "predicted": 199583
+    },
+    {
+      "actual": 95000,
+      "predicted": 86683
+    },
+    {
+      "actual": 110000,
+      "predicted": 189472
+    },
+    {
+      "actual": 270000,
+      "predicted": 183879
+    },
+    {
+      "actual": 110000,
+      "predicted": 76576
+    },
+    {
+      "actual": 300000,
+      "predicted": 248700
+    },
+    {
+      "actual": 260000,
+      "predicted": 334193
+    },
+    {
+      "actual": 390000,
+      "predicted": 340977
+    }
+  ]
+}
